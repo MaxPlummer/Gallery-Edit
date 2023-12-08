@@ -252,6 +252,7 @@ export default function PublicEdit({ activity, isSandbox }) {
 
                                             <i
                                                 onClick={() => handleConsole()}
+                                                onKeyDown={}
                                                 className='fas fa-terminal hvr-info'
                                                 style={{ marginLeft: '6px' }}
                                                 onMouseEnter={() => setHoverConsole(true)}
